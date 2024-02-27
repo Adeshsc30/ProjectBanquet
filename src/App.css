@@ -1,0 +1,114 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/* .parallax{
+  background-attachment: fixed;
+}
+
+.text-content{
+  background-attachment: fixed;
+} */
+
+
+.logo{
+  width: 30%;
+}
+
+.nav-bar{
+  display: flex;
+}
+
+.menu>*{
+  text-decoration: none;
+}
+
+.taaj-palace-info {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.taaj-palace-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.taaj-palace-info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for weekdays */
+  gap: 5px;
+}
+
+.day-of-week,
+.day {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.day-of-week {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.day.selected {
+  background-color: #ccc;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  background-color: #4CAF50; /* Adjust button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3e8e41; /* Adjust button hover color */
+}
+
+
+
+
+
+
+
